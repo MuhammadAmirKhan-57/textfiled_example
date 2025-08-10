@@ -1,0 +1,16 @@
+import 'package:flutter/material.dart';
+
+class TextFormField extends StatelessWidget {
+  const TextFormField({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        centerTitle: true,
+        title: Text('Textformfield'),
+        backgroundColor: Colors.amber.shade200,
+      ),
+    );
+  }
+}
